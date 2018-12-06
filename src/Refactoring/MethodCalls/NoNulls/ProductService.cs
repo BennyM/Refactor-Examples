@@ -14,6 +14,10 @@ namespace Refactoring.MethodCalls.NoNulls
             {
                 throw new ApplicationException($"Product with name {name} already exists");
             }
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentException("No name was supplied");
+            }
             var product = new Product();
             product.Id = products.Count + 1;
             product.Name = name;
