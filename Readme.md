@@ -1,20 +1,20 @@
-#Refactoring
+# Refactoring
 
 Starting point to illustrate several refactorings.
 
-##Conditionals
+## Conditionals
 
-###Decompose
+### Decompose
 Extract methods from the condition, then and else part.
 
-###Consolidate 
+### Consolidate 
 Combine conditions with the same result.
 
-###Guard Clauses
+### Guard Clauses
 Conditinal behaviour can make the path unclear.
 
-###Strategy
+### Strategy
 Use a strategy to decide the outcome.
 
-###Replace with Polymorphism
+### Replace with Polymorphism
 Different behaviour based on an identifier (int, enum, type). Encapsulate in class.
