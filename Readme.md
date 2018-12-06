@@ -25,3 +25,6 @@ Different behaviour based on an identifier (int, enum, type). Encapsulate in cla
 
 ### Seperate query from modifier
 Create two methods, one for the query and one for the modification.
+
+### Null Objects
+Replace null value with null object
